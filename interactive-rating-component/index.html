@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <!-- Rating state start -->
+      <article>
+        <section class="front-card">
+          <div class="front-card-img">
+            <img src="./images/icon-star.svg" alt="star logo" />
+          </div>
+        </br>
+      
+          <div class="front-card-text">
+            <h1>How did we do?</h1>
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+            <div class="front-card-rating">
+              <button class="rating" data-value="1">1</button>
+              <button class="rating" data-value="2">2</button>
+              <button class="rating" data-value="3">3</button>
+              <button class="rating" data-value="4">4</button>
+              <button class="rating" data-value="5">5</button>
+            </div>
+            <button id="submit">S u b i m i t</button>
+          </div>
+        </section>
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+        <section class="back-card">
+          <div class="back-card-img">
+            <img
+              src="./images/illustration-thank-you.svg"
+              alt="illustration thank you"
+            />
+          </div>
+          <div class="back-card-text">
+            <div class ="back-card-rating">
+              <p id="rating-info">You selected 4 out of 5</p>
+            </div>
+        
+            <h1>Thank you!</h1>
+            <p>
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don’t hesitate to get in touch!
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.linkedin.com/in/beatriz-kloss-1b258b22b/"
+        target="_blank"
+        >Beatriz Kloss</a
+      >.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-color: var(--pale-blue);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 20px;
+  background: var(--white, #fff);
+  width: 325px;
+  height: 499px;
+  box-shadow: 0 10px 12px 0px rgba(192, 192, 207, 0.877);
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+}
+
+.summary-content {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.summary-content h1 {
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--dark-blue);
+  margin-bottom: 15px;
+}
+.summary-content p {
+  font-size: 12px;
+  color: var(--desaturated-blue);
+  margin-bottom: 18px;
+  font-weight: 500;
+  max-width: 220px;
+}
+.music-plan {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+  width: 265px;
+  height: 70px;
+  padding: 0 10px;
+}
+
+.music-plan img {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.music-plan-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.music-plan h2 {
+  font-size: 12px;
+  color: var(--dark-blue);
+  font-weight: 900;
+  margin: 0;
+  padding-bottom: 2px;
+}
+
+.music-plan p {
+  font-size: 12px;
+  color: var(--desaturated-blue);
+  font-weight: 500;
+  margin: 0;
+}
+
+.music-plan a {
+  font-size: 10px;
+  color: var(--bright-blue);
+  font-weight: 900;
+  text-decoration: underline;
+  margin-left: auto;
+  margin-right: 8px;
+  transition: all 0.3s ease;
+}
+
+.music-plan a:hover {
+  color: hsl(245, 90%, 73%);
+  text-decoration: none;
+}
+
+.button-payment button {
+  background-color: var(--bright-blue);
+  color: var(--very-pale-blue);
+  font-size: 11px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  width: 265px;
+  height: 37px;
+  cursor: pointer;
+  display: block;
+  box-shadow: 0 6px 15px 0px rgba(136, 138, 246, 0.877);
+  transition: all 0.3s ease;
+}
+
+.button-payment button:hover {
+  box-shadow: 0 6px 15px 0px hsl(246, 78%, 81%);
+  background-color: hsl(245, 89%, 68%);
+}
+
+.button-payment a {
+  display: inline-block;
+  font-size: 11px;
+  justify-content: center;
+  color: var(--desaturated-blue);
+  font-weight: 900;
+  text-decoration: none;
+  padding-top: 20px;
+  transition: all 0.3s ease;
+}
+.button-payment a:hover {
+  color: var(--dark-blue);
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: var(--desaturated-blue);
+  width: 100%;
+  padding: 10px 0;
+}
+
+footer a {
+  color: var(--dark-blue);
+  text-decoration: none;
+  font-weight: 700;
+}
+footer a:hover {
+  color: var(--desaturated-blue);
+  text-decoration: underline;
+}

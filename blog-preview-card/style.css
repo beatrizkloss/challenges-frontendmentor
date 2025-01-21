@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 384px;
+  padding: 24px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid var(--gray-950);
+  background: var(--white);
+  box-shadow: 8px 8px 0px 0px #000;
+}
+
+.article-image img {
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--yellow);
+}
+
+.content {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.content button {
+  display: flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background-color: var(--yellow);
+  color: var(--color-gray-950, #111);
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  border: none;
+  cursor: pointer;
+}
+
+.content .time,
+.content h1,
+.content .description {
+  color: var(--gray-950);
+  font-family: "Figtree", sans-serif;
+}
+
+.content .time {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.content h1 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.content h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.content .description {
+  color: var(--gray-500);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.author-avatar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 24px;
+}
+
+.author-avatar img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.author-avatar p {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  color: var(--gray-950);
+}
+
+.attribution {
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-950);
+}
