@@ -30,7 +30,7 @@ Cada vez que me deparava com algo difícil, pesquisava soluções e aplicava o q
 Esse ciclo constante de aprender e aplicar fez com que meu trabalho fosse ficando cada vez mais fluido e natural.
 
 ---
-## 🧑‍💻Autor
+## 👩‍💻Autor
 
 - Linkedin - [Beatriz Kloss](https://www.linkedin.com/in/beatriz-kloss-1b258b22b/)
 - Frontend Mentor - [@beatrizkloss](https://www.frontendmentor.io/profile/beatrizkloss)
