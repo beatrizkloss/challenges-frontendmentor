@@ -1,8 +1,8 @@
-# 🌟Frontend Mentor Challenges
+# 🌟 Frontend Mentor Challenges
 
 Este repositório contém os desafios que completei no [Frontend Mentor](https://www.frontendmentor.io/).
 
-## 📋Projetos
+## 📋 Projetos
 
 | Projeto                        | Repositório                               | Link Vercel                                   |
 |---------------------------------|-------------------------------------------------|-----------------------------------------------|
@@ -15,7 +15,7 @@ Este repositório contém os desafios que completei no [Frontend Mentor](https:/
 
 ---
 
-## 🛠️Construído com:
+## 🛠️ Construído com:
 
 - **HTML5**: Utilizado para estruturar o conteúdo das páginas.
 - **CSS3**: Estilos e layouts responsivos foram feitos com CSS.
@@ -23,19 +23,19 @@ Este repositório contém os desafios que completei no [Frontend Mentor](https:/
 
 ---
 
-## 🚀O que eu aprendi!
+## 🚀 O que eu aprendi!
 
 A cada projeto, fui aprendendo mais sobre como resolver os desafios e encontrando novas maneiras de melhorar.
 Cada vez que me deparava com algo difícil, pesquisava soluções e aplicava o que aprendia nos projetos seguintes. 
 Esse ciclo constante de aprender e aplicar fez com que meu trabalho fosse ficando cada vez mais fluido e natural.
 
 ---
-## 👩‍💻Autor
+## 👩‍💻 Autor
 
 - Linkedin - [Beatriz Kloss](https://www.linkedin.com/in/beatriz-kloss-1b258b22b/)
 - Frontend Mentor - [@beatrizkloss](https://www.frontendmentor.io/profile/beatrizkloss)
 ---
-## 🖥️Clonar o repositório
+## 🖥️ Clonar o repositório
 
 Se você deseja testar os projetos localmente, basta clonar este repositório e abrir o arquivo `index.html` de cada pasta no seu navegador:
 
